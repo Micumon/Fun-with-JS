@@ -1,0 +1,17 @@
+{
+    // Użyj funkcji IntelliSense, aby uzyskać informacje o możliwych atrybutach.
+    // Najedź kursorem, aby wyświetlić opisy istniejących atrybutów.
+    // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\micki\\Desktop\\python\\Fun-with-JS\\index.html",
+            "firefoxExecutable": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+            "profileDir": "C:\\Users\\micki\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\ib8viiko.default-release-1688209224731"
+
+        }
+    ]
+}
