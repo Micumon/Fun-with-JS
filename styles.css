@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
