@@ -10,3 +10,24 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 }
 
+button{
+    height: 60px;
+    width: 60px;
+}
+
+.buttonsParag{
+    margin: 5px;
+
+}
+
+#screen{
+    text-align: right;
+    color: black;
+    background-color: rgb(211, 210, 210);
+    border-style: solid;
+    border-width: 1px;
+    border-color: aqua;
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+}

@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+     <head>
         <title>Calculator</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body>
+    <body onkeydown="Calc.tap(event.key)">
         <h1 title="Title of a project">Micu's Calculator</h1>
         <img src="img/line.jpg" height="100" width="500" alt="A nice line here">
         <p><sub>**</sub><i><em>This</em> is my <ins>first project</ins> in html, and <abbr title="Java Script">JS</abbr><br>
         Lets see how it goes.<sup>**</sup></i></p>
         <hr>
-        
+
+        <p>
+            <label id="screen" onclick="flashingZero()">0</label>
+        </p>
+        <p class="buttonsParag">
+            <button id="CE" onclick="Calc.tap('CE')">CE</button>
+            <button id="C" onclick="Calc.tap('C')">C</button>
+            <button id="div" onclick="Calc.tap('/')">/</button>
+            <button id="mult" onclick="Calc.tap('*')">*</button>
+        </p>
+        <p class="buttonsParag">
+            <button id="7" onclick="Calc.tap('7')">7</button>
+            <button id="8" onclick="Calc.tap('8')">8</button>
+            <button id="8" onclick="Calc.tap('9')">9</button>
+            <button id="minus" onclick="Calc.tap('-')">-</button>
+        </p>
+        <p class="buttonsParag">
+            <button id="4" onclick="Calc.tap('4')">4</button>
+            <button id="5" onclick="Calc.tap('5')">5</button>
+            <button id="6" onclick="Calc.tap('6')">6</button>
+            <button id="plus" onclick="Calc.tap('+')">+</button>
+        </p>
+        <p class="buttonsParag">
+            <button id="1" onclick="Calc.tap('1')">1</button>
+            <button id="2" onclick="Calc.tap('2')">2</button>
+            <button id="3" onclick="Calc.tap('3')">3</button>
+            <button id="EQ" onclick="Calc.tap('=')">=</button>
+        </p>
 
 
 
@@ -19,5 +46,5 @@
         <a href="index.html">Back</a>
     </body>
 
-
+    <script src="Calc.js"></script>
 </html>

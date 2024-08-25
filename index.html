@@ -1,9 +1,13 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Trying</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <script src="API_com.js"></script>
 </head>
 
+<body>
 <button onclick="alert('udało się')">Działa?</button></br>
 <button id="b1" ondblclick="helloWorld()">A to?</button></br></br>
 
@@ -13,6 +17,15 @@
 <p><a href="Calc.html">Calculator</a></p>
 
 
+<h1>Wysyłanie danych do serwera</h1>
+<input type="text" id="dataInput" placeholder="Wpisz coś...">
+<button onclick="sendData()">Wyślij</button>
+
+<p id="response"></p>
 
 
-<script src="index.js"></script>
+
+
+
+</body>
+</html>
