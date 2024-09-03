@@ -30,5 +30,14 @@ def anotherFunction():
     }
     return jsonify(response_msg)
 
+@app.route("/api/formData", methods=["POST"])
+def formData():
+    request_recieved = request.form
+
+    
+
+    # return jsonify({"response":f"otrzymałem i przetwożyłem: {request_recieved['firstName']}"}){request_recieved['firstName']}{request_recieved['lastName']}
+    return f"<!DOCTYPE html><h1 style='background: linear-gradient(to right,yellow,blue);background-clip:text;color:transparent;'>Udało się {request_recieved['firstName']} {request_recieved['lastName']}</h1>"
+
 if __name__ == '__main__':
     app.run(debug=True)

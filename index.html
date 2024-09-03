@@ -23,6 +23,16 @@
 
 <p id="response"></p>
 
+<hr>
+<form action="http://127.0.0.1:5000/api/formData" target="responseFromServer" method="post" name="testForm" enctype="multipart/form-data">
+    <label for="firstName">First Name: </label><input type="text" id="firstName" name="firstName" title="Klops"><br>
+    <label for="lastName">Last Name: </label><input type="text" id="lastName" name="lastName" autocomplete="bday"><br>
+    <input type="submit" id="subButton" name="subButton">
+    <iframe name="responseFromServer" id="responseFromServer"></iframe>
+
+
+</form>
+
 
 
 
